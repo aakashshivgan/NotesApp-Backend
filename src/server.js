@@ -66,7 +66,7 @@ await Note.deleteOne({id :req.body.id});
 
 
 // function to start the server
-const port = process.env.Port || 5000;
+const port = process.env.PORT || 5000;
 app.listen(port ,function(){
-    console.log('server up at Localhost:5000' + port);
+    console.log('server up at Localhost:5000' + $port);
 });
